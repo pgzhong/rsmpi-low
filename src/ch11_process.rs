@@ -1,0 +1,21 @@
+// int MPI_Init(int *argc, char ***argv);
+// int MPI_Init_thread(int *argc, char ***argv, int required, int *provided);
+// int MPI_Query_thread(int *provided);
+// int MPI_Is_thread_main(int *flag);
+// int MPI_Finalize(void);
+// int MPI_Initialized(int *flag);
+// int MPI_Finalized(int *flag);
+// int MPI_Abort(MPI_Comm comm, int errorcode);
+// int MPI_Comm_spawn(const char *command, char *argv[], int maxprocs, MPI_Info info, int root, MPI_Comm comm, MPI_Comm *intercomm, int array_of_errcodes[]);
+// int MPI_Comm_get_parent(MPI_Comm *parent);
+// int MPI_Comm_spawn_multiple(int count, char *array_of_commands[], char **array_of_argv[], const int array_of_maxprocs[], const MPI_Info array_of_info[], int root, MPI_Comm comm, MPI_Comm *intercomm, int array_of_errcodes[]);
+// int MPI_Open_port(MPI_Info info, char *port_name);
+// int MPI_Close_port(const char *port_name);
+// int MPI_Comm_accept(const char *port_name, MPI_Info info, int root, MPI_Comm comm, MPI_Comm *newcomm);
+// int MPI_Comm_connect(const char *port_name, MPI_Info info, int root, MPI_Comm comm, MPI_Comm *newcomm);
+// int MPI_Publish_name(const char *service_name, MPI_Info info, const char *port_name);
+// int MPI_Unpublish_name(const char *service_name, MPI_Info info, const char *port_name);
+// int MPI_Lookup_name(const char *service_name, MPI_Info info, char *port_name);
+// int MPI_Comm_disconnect(MPI_Comm *comm);
+// int MPI_Comm_join(int fd, MPI_Comm *intercomm);
+

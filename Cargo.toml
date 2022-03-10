@@ -1,0 +1,9 @@
+[package]
+name = "rsmpi-low"
+version = "0.1.0"
+authors = ["Peigeng Zhong <zhongpg@outlook.com>"]
+description = "low level binding of MPI"
+edition = "2021"
+
+[dependencies]
+mpi = { version = "0.6", features = ["user-operations", "derive"] }

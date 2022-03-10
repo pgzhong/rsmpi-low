@@ -1,0 +1,26 @@
+// int MPI_Get_version(int *version, int *subversion);
+// int MPI_Get_library_version(char *version, int *resultlen);
+// int MPI_Get_processor_name(char *name, int *resultlen);
+// int MPI_Alloc_mem(MPI_Aint size, MPI_Info info, void *baseptr);
+// int MPI_Free_mem(void *base);
+// int MPI_Comm_create_errhandler(MPI_Comm_errhandler_function *function, MPI_Errhandler *errhandler);
+// int MPI_Comm_set_errhandler(MPI_Comm comm, MPI_Errhandler errhandler);
+// int MPI_Comm_get_errhandler(MPI_Comm comm, MPI_Errhandler *erhandler);
+// int MPI_Win_create_errhandler(MPI_Win_errhandler_function *function, MPI_Errhandler *errhandler);
+// int MPI_Win_set_errhandler(MPI_Win win, MPI_Errhandler errhandler);
+// int MPI_Win_get_errhandler(MPI_Win win, MPI_Errhandler *errhandler);
+// int MPI_File_create_errhandler(MPI_File_errhandler_function *function, MPI_Errhandler *errhandler);
+// int MPI_File_set_errhandler( MPI_File file, MPI_Errhandler errhandler);
+// int MPI_File_get_errhandler( MPI_File file, MPI_Errhandler *errhandler);
+// int MPI_Errhandler_free(MPI_Errhandler *errhandler);
+// int MPI_Error_string(int errorcode, char *string, int *resultlen);
+// int MPI_Error_class(int errorcode, int *errorclass);
+// int MPI_Add_error_class(int *errorclass);
+// int MPI_Add_error_code(int errorclass, int *errorcode);
+// int MPI_Add_error_string(int errorcode, const char *string);
+// int MPI_Comm_call_errhandler(MPI_Comm comm, int errorcode);
+// int MPI_Win_call_errhandler(MPI_Win win, int errorcode);
+// int MPI_File_call_errhandler(MPI_File fh, int errorcode);
+// double MPI_Wtime(void);
+// double MPI_Wtick(void);
+
